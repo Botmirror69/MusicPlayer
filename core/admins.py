@@ -27,14 +27,17 @@ async def is_sudo(message):
 
 
 async def is_admin(message):
-    if (
+    if message.from_user and (
         message.from_user.id
         in [
             admin.user.id
             for admin in (await message.chat.get_members(filter="administrators"))
         ]
-        or message.from_user.id in config.SUDOERS
     ):
+        return True
+    elif message.from_user and message.from_user.id in config.SUDOERS:
+        return True
+    elif message.sender_chat and message.sender_chat.id == message.chat.id:
         return True
     else:
         return False
