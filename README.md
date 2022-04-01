@@ -95,7 +95,7 @@ $ sudo docker run musicplayer
 - `SESSION`: Pyrogram string session. You can generate from [here](https://replit.com/@AsmSafone/genStr).
 - `SUDOERS`: ID of sudo users (separate multiple ids with space).
 - `BOT_TOKEN`: Telegram bot token from https://t.me/botfather. (optional)
-- `QUALITY`: Custom stream quality (high/medium/low) for the userbot in vc. Default: `high`
+- `QUALITY`: Custom stream quality (high/medium/low) for the in vc. Default: `high`
 - `PREFIX`: Bot commad prefixes (separate multiple prefix with space). Eg: `! /`
 - `LANGUAGE`: An [available](#languages) bot language (can change it anytime). Default: `en`
 - `STREAM_MODE`: An stream mode like audio or video (can change it anytime). Default: `audio`
