@@ -145,12 +145,3 @@ For any kind of help join [our support group](https://t.me/AsmSupport) or raise 
 
 ## ✨ <a name="credits"></a>Credits
 
-- [Me](https://github.com/AsmSafone) for [Noting](https://github.com/AsmSafone/MusicPlayer) 😬
-- [Dan](https://github.com/delivrance) for [Pyrogram](https://github.com/pyrogram/pyrogram) ❤️
-- [Laky-64](https://github.com/Laky-64) for [hlo](https://github.com/pytgcalls/pytgcalls) ❤️
-- And Thanks To All [Contributors](https://github.com/AsmSafone/MusicPlayer/graphs/contributors)! ❤️
-
-## 📃 <a name="license"></a>License
-
-Music Player is licenced under the GNU Affero General Public License v3.0.
-Read more [here](./LICENSE).
